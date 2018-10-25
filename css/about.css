@@ -1,0 +1,189 @@
+#company {
+  padding: 74px 0 56px; }
+  #company h1 {
+    color: #2a2a2a;
+    margin-bottom: 28px; }
+  #company h4 {
+    font-size: 20px;
+    color: #2a2a2a;
+    margin-bottom: 18px; }
+  #company .text_1,
+  #company .text_2 {
+    color: #2a2a2a;
+    line-height: 28px;
+    margin-bottom: 20px;
+    text-indent: 28px; }
+  #company .right_img {
+    margin-top: 150px; }
+
+#job {
+  background-color: #8cc11f;
+  padding: 95px 0 70px; }
+  #job .myRow {
+    color: #fff; }
+    #job .myRow h1 {
+      margin-bottom: 55px; }
+    #job .myRow .left_text p {
+      font-size: 16px;
+      line-height: 24px; }
+    #job .myRow .right_text {
+      font-size: 16px; }
+      #job .myRow .right_text button {
+        font-size: 24px;
+        color: #8cc11f;
+        background-color: #fff;
+        border-radius: 6px;
+        border: none;
+        padding: 6px;
+        margin-bottom: 16px; }
+
+#resume_info .content_detail {
+  padding: 50px 0;
+  color: #2a2a2a;
+  border-bottom: 1px solid #d2d2d2; }
+  #resume_info .content_detail h2 {
+    font-size: 26px;
+    color: #8cc11f;
+    margin-bottom: 40px; }
+  #resume_info .content_detail h3 {
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 16px; }
+  #resume_info .content_detail p {
+    margin-bottom: 20px; }
+    #resume_info .content_detail p:last-child {
+      margin-bottom: 16px; }
+#resume_info .content_detail_border {
+  border: none; }
+
+#contact {
+  background-color: #f4f4f4;
+  padding: 23px 0 60px; }
+  #contact .my_row {
+    padding: 0 15px; }
+  #contact h1 {
+    margin-bottom: 30px; }
+  #contact .left_text {
+    box-sizing: border-box;
+    width: 47%;
+    padding: 10px 10px 20px 20px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #e3e3e3; }
+    #contact .left_text p {
+      font-size: 16px;
+      color: #2a2a2a;
+      padding-left: 10px; }
+    #contact .left_text:nth-child(2), #contact .left_text:nth-child(4) {
+      margin-right: 0px; }
+    #contact .left_text .img,
+    #contact .left_text .text {
+      display: table-cell; }
+
+@media (max-width: 767px) {
+  #company .right_img {
+    margin-top: 0px; }
+    #company .right_img img {
+      width: 60%; } }
+@media (max-width: 992px) {
+  #contact .left_text {
+    padding: 5px 5px 10px 10px;
+    width: 47%; }
+    #contact .left_text .img {
+      width: 50px;
+      height: 50px; }
+      #contact .left_text .img img {
+        width: 100%; }
+    #contact .left_text p {
+      font-size: 12px; } }
+@media (min-width: 320px) and (max-width: 480px) {
+  #company .left_img h4,
+  #job .left_img h4 {
+    font-size: 14px;
+    line-height: 20px; }
+  #company .left_img .left_text p,
+  #company .left_img .right_text p,
+  #job .left_img .left_text p,
+  #job .left_img .right_text p {
+    font-size: 12px;
+    line-height: 20px; }
+  #company .left_img .left_text button,
+  #company .left_img .right_text button,
+  #job .left_img .left_text button,
+  #job .left_img .right_text button {
+    font-size: 14px; }
+  #company .left_img .text_1,
+  #company .left_img .text_2,
+  #job .left_img .text_1,
+  #job .left_img .text_2 {
+    font-size: 12px;
+    line-height: 20px; }
+
+  #resume_info .content_detail h2 {
+    font-size: 16px;
+    margin-bottom: 20px; }
+  #resume_info .content_detail h3 {
+    font-size: 14px;
+    margin-bottom: 10px; }
+  #resume_info .content_detail p {
+    font-size: 12px;
+    line-height: 20px; }
+
+  #contact .left_text {
+    padding: 3px 3px 5px 5px;
+    width: 95%; }
+    #contact .left_text .img {
+      width: 25px;
+      height: 25px; }
+      #contact .left_text .img img {
+        width: 100%; }
+    #contact .left_text p {
+      font-size: 10px; } }
+@media (min-width: 481px) and (max-width: 766px) {
+  #company .left_img h4,
+  #job .left_img h4 {
+    font-size: 16px;
+    line-height: 24px; }
+  #company .left_img .text_1,
+  #company .left_img .text_2,
+  #job .left_img .text_1,
+  #job .left_img .text_2 {
+    font-size: 14px;
+    line-height: 24px; }
+  #company .left_text p,
+  #company .right_text p,
+  #job .left_text p,
+  #job .right_text p {
+    font-size: 14px;
+    line-height: 24px; }
+  #company .left_text button,
+  #company .right_text button,
+  #job .left_text button,
+  #job .right_text button {
+    font-size: 18px; }
+
+  #resume_info .content_detail h2 {
+    font-size: 20px; }
+  #resume_info .content_detail h3 {
+    font-size: 16px; }
+  #resume_info .content_detail p {
+    font-size: 14px;
+    line-height: 20px; }
+
+  #contact .left_text {
+    padding: 5px 5px 10px 10px;
+    width: 46%; }
+    #contact .left_text .img {
+      width: 40px;
+      height: 40px; }
+      #contact .left_text .img img {
+        width: 100%; }
+    #contact .left_text p {
+      font-size: 10px; } }
+@media (min-width: 768px) and (max-width: 992px) {
+  #company .right_img img {
+    width: 80%; } }
+
+/*# sourceMappingURL=about.css.map */

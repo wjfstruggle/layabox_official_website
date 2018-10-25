@@ -1,0 +1,104 @@
+#hot_game,
+#princess {
+  padding: 0 0 40px; }
+  #hot_game h4,
+  #princess h4 {
+    float: left;
+    margin: 0;
+    padding: 25px 2px;
+    width: 40px;
+    height: 100px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    background: url(../img/game/hot.jpg) no-repeat; }
+  #hot_game h2,
+  #princess h2 {
+    float: right; }
+  #hot_game .left_img,
+  #princess .left_img {
+    padding: 0; }
+  #hot_game .right_img p,
+  #princess .right_img p {
+    font-size: 12px;
+    text-indent: 10px;
+    text-align: right;
+    color: #898989;
+    line-height: 28px; }
+  #hot_game .right_img .game_detail_1,
+  #princess .right_img .game_detail_1 {
+    padding: 15px; }
+    #hot_game .right_img .game_detail_1 a,
+    #princess .right_img .game_detail_1 a {
+      display: block; }
+      #hot_game .right_img .game_detail_1 a img,
+      #princess .right_img .game_detail_1 a img {
+        border-radius: 10px; }
+
+#princess h2 {
+  float: left; }
+#princess .right_img p {
+  text-align: left; }
+
+#more_example {
+  padding: 40px 0; }
+  #more_example .game_detail_1 {
+    text-align: center;
+    padding: 15px; }
+    #more_example .game_detail_1 a {
+      display: block; }
+      #more_example .game_detail_1 a img {
+        border-radius: 10px; }
+    #more_example .game_detail_1 p {
+      color: #2a2a2a;
+      margin-top: 10px; }
+
+@media (min-width: 280px) and (max-width: 480px) {
+  #hot_game .title h4,
+  #princess .title h4,
+  #more_example .title h4 {
+    width: 30px;
+    font-size: 14px;
+    padding: 25px 4px;
+    background-size: 30px 80px;
+    word-wrap: break-word; }
+  #hot_game .title h2,
+  #princess .title h2,
+  #more_example .title h2 {
+    font-size: 18px; }
+  #hot_game .right_img p,
+  #princess .right_img p,
+  #more_example .right_img p {
+    line-height: 20px; }
+  #hot_game .game_detail_1 p,
+  #princess .game_detail_1 p,
+  #more_example .game_detail_1 p {
+    font-size: 12px; } }
+@media (min-width: 481px) and (max-width: 767px) {
+  #hot_game .title h4,
+  #princess .title h4,
+  #more_example .title h4 {
+    width: 35px;
+    font-size: 18px;
+    padding: 25px 4px;
+    background-size: 35px 80px;
+    word-wrap: break-word; }
+  #hot_game .title h2,
+  #princess .title h2,
+  #more_example .title h2 {
+    font-size: 24px; }
+  #hot_game .right_img p,
+  #princess .right_img p,
+  #more_example .right_img p {
+    line-height: 20px; } }
+@media (max-width: 768px) {
+  #hot_game .right_img .game_detail_1,
+  #princess .right_img .game_detail_1 {
+    text-align: center; } }
+@media (max-width: 668px) {
+  #more_example .game_detail_1 img,
+  #princess .game_detail_1 img,
+  #hot_game .game_detail_1 img {
+    width: 100%; } }
+
+/*# sourceMappingURL=game.css.map */

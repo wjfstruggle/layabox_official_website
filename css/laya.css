@@ -1,0 +1,98 @@
+#LayaFlash,
+#LayaPlayer {
+  padding: 60px 0;
+  background-color: #8cc01e; }
+  #LayaFlash .left_img,
+  #LayaPlayer .left_img {
+    color: #fff; }
+    #LayaFlash .left_img h2,
+    #LayaPlayer .left_img h2 {
+      font-size: 24px;
+      margin-bottom: 60px; }
+    #LayaFlash .left_img p,
+    #LayaPlayer .left_img p {
+      line-height: 30px;
+      margin-bottom: 15px; }
+    #LayaFlash .left_img button,
+    #LayaPlayer .left_img button {
+      padding: 8px 18px;
+      color: #8cc01e;
+      letter-spacing: 2px;
+      border-radius: 5px;
+      border: none; }
+  #LayaFlash h1,
+  #LayaPlayer h1 {
+    font-size: 48px;
+    color: #fff;
+    margin-bottom: 18px; }
+    #LayaFlash h1 span,
+    #LayaPlayer h1 span {
+      display: inline-block;
+      padding: 6px 15px;
+      line-height: 1;
+      background-color: #fff;
+      color: #8cc01e;
+      margin-right: 10px; }
+
+#LayaPlayer {
+  background-color: #3393df; }
+  #LayaPlayer h1 span {
+    color: #3393df; }
+  #LayaPlayer .content {
+    color: #fff; }
+    #LayaPlayer .content h4 {
+      font-size: 24px;
+      margin-bottom: 10px; }
+    #LayaPlayer .content p {
+      line-height: 30px;
+      margin-bottom: 30px; }
+  #LayaPlayer .right_img {
+    margin-top: 130px; }
+
+#LayaAir,
+#LayaStore {
+  padding: 80px 0; }
+  #LayaAir h3,
+  #LayaStore h3 {
+    font-size: 42px;
+    color: #3393df;
+    margin-bottom: 20px; }
+    #LayaAir h3 span,
+    #LayaStore h3 span {
+      display: inline-block;
+      padding: 4px 12px;
+      font-size: 36px;
+      line-height: 1;
+      background-color: #3393df;
+      color: #fff;
+      margin-right: 10px; }
+  #LayaAir .text,
+  #LayaStore .text {
+    font-size: 18px;
+    color: #5d5d5d;
+    margin-bottom: 30px; }
+  #LayaAir h4,
+  #LayaStore h4 {
+    font-size: 18px;
+    color: #3393df;
+    margin-bottom: 16px; }
+  #LayaAir .my_row p,
+  #LayaStore .my_row p {
+    line-height: 24px;
+    margin-bottom: 30px;
+    color: #5d5d5d;
+    text-indent: 28px; }
+  #LayaAir .my_row .md_img,
+  #LayaStore .my_row .md_img {
+    text-align: center; }
+
+#LayaStore {
+  background-color: #f7f7f7; }
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #LayaPlayer {
+    text-align: center; }
+    #LayaPlayer img {
+      width: 60%; } }
+
+/*# sourceMappingURL=laya.css.map */

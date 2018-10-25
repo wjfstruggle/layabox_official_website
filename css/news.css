@@ -1,0 +1,172 @@
+@charset "UTF-8";
+#news,
+#new_list {
+  padding: 40px 0; }
+  #news h2,
+  #new_list h2 {
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 36px;
+    color: #ff6b08; }
+  #news .new_title,
+  #new_list .new_title {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 10px;
+    position: relative;
+    width: 302px;
+    height: 180px; }
+    #news .new_title .new_detail_img img,
+    #new_list .new_title .new_detail_img img {
+      width: 100%; }
+    #news .new_title .new_detail,
+    #new_list .new_title .new_detail {
+      position: absolute;
+      width: 100%;
+      height: 42px;
+      background-color: #282828;
+      line-height: 42px;
+      opacity: .8;
+      text-align: center;
+      bottom: 0px; }
+      #news .new_title .new_detail p,
+      #new_list .new_title .new_detail p {
+        color: #fff; }
+
+#new_list .myRow {
+  margin-bottom: 30px; }
+#new_list .left_img {
+  padding-bottom: 15px; }
+  #new_list .left_img img {
+    display: block;
+    border: 1px solid #ddd;
+    padding: 5px; }
+#new_list .right_title h5 {
+  margin: 0;
+  font-size: 18px;
+  color: #666; }
+  #new_list .right_title h5.active {
+    color: #ff6b08; }
+#new_list .right_title strong {
+  display: inline-block;
+  font-weight: normal;
+  margin: 16px 0;
+  color: #2a2a2a; }
+#new_list .right_title p {
+  color: #2a2a2a;
+  line-height: 24px; }
+#new_list .right_title button {
+  float: right;
+  padding: 8px 20px 6px;
+  background-color: #fff;
+  color: #ff6b08;
+  letter-spacing: 2px;
+  border-radius: 20px;
+  border: 1px solid #ff6b08; }
+  #new_list .right_title button.active {
+    background-color: #ff6b08;
+    color: #fff;
+    border: none; }
+
+.page {
+  text-align: center; }
+  .page li a {
+    color: #2a2a2a;
+    display: block; }
+    .page li a:active, .page li a:focus {
+      background-color: #e34637;
+      color: #fff; }
+    .page li a.active {
+      background-color: #e34637;
+      color: #fff; }
+
+@media (min-width: 280px) and (max-width: 480px) {
+  #news h2 {
+    font-size: 18px;
+    margin-bottom: 20px; }
+  #news .my_row .new_title {
+    width: 60%;
+    height: 60%;
+    left: 17%; }
+    #news .my_row .new_title .new_detail_img img {
+      width: 100%; }
+    #news .my_row .new_title .new_detail {
+      width: 100%;
+      height: 30px; }
+      #news .my_row .new_title .new_detail p {
+        font-size: 10px;
+        line-height: 30px;
+        text-overflow: ellipsis;
+        /*超出部分显示...*/
+        overflow: hidden;
+        /*超出部分隐藏*/
+        white-space: nowrap;
+        /*不换行*/ }
+
+  #new_list .left_img {
+    text-align: center; }
+    #new_list .left_img img {
+      width: 100%; }
+  #new_list .right_title h5 {
+    font-size: 14px; }
+  #new_list .right_title strong,
+  #new_list .right_title p {
+    font-size: 12px;
+    line-height: 20px; }
+  #new_list .right_title button {
+    padding: 6px 10px 4px;
+    font-size: 10px;
+    letter-spacing: 2px; }
+
+  .page li a {
+    padding: 4px 8px;
+    font-size: 12px; } }
+@media (min-width: 481px) and (max-width: 767px) {
+  #news .new_title {
+    width: 29%;
+    height: 60%; }
+    #news .new_title .new_detail_img img {
+      width: 100%; }
+    #news .new_title .new_detail {
+      width: 100%;
+      height: 25px; }
+      #news .new_title .new_detail p {
+        font-size: 10px;
+        line-height: 25px;
+        text-overflow: ellipsis;
+        /*超出部分显示...*/
+        overflow: hidden;
+        /*超出部分隐藏*/
+        white-space: nowrap;
+        /*不换行*/ }
+
+  #new_list .right_title h5 {
+    font-size: 16px; }
+  #new_list .right_title strong,
+  #new_list .right_title p {
+    font-size: 12px;
+    line-height: 20px; }
+  #new_list .right_title button {
+    padding: 6px 12px 4px;
+    font-size: 12px;
+    letter-spacing: 2px; } }
+@media (min-width: 768px) and (max-width: 992px) {
+  #news .new_title {
+    width: 30%;
+    height: 60%; }
+    #news .new_title .new_detail_img img {
+      width: 100%; }
+    #news .new_title .new_detail {
+      width: 100%;
+      height: 25px; }
+      #news .new_title .new_detail p {
+        font-size: 10px;
+        line-height: 25px;
+        text-overflow: ellipsis;
+        /*超出部分显示...*/
+        overflow: hidden;
+        /*超出部分隐藏*/
+        white-space: nowrap;
+        /*不换行*/ } }
+
+/*# sourceMappingURL=news.css.map */

@@ -1,0 +1,366 @@
+.navbar-default {
+  background-color: #222222;
+  margin-bottom: 0; }
+
+.navbar {
+  border-radius: 0; }
+  .navbar .navbar-brand {
+    padding: 7px 18px 7px 7px; }
+  .navbar .more {
+    display: none; }
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #fff;
+  background-color: #080808; }
+
+#myCarousel img {
+  width: 100%; }
+
+.clearfix::after {
+  display: block;
+  clear: both;
+  content: '';
+  visibility: hidden;
+  height: 0;
+  line-height: 0; }
+
+footer {
+  padding: 20px 0;
+  background-color: #3b3b3b; }
+  footer .text {
+    margin: 10px 0; }
+  footer .text a,
+  footer .title p {
+    padding: 0 10px;
+    color: #8c8d94; }
+  footer .contact a {
+    display: inline-block;
+    width: 38px;
+    height: 38px;
+    background: #3b3b3b;
+    text-align: center;
+    line-height: 38px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 30px; }
+    footer .contact a span {
+      position: absolute;
+      padding: 8px;
+      background-color: #fff;
+      border-bottom: 1px solid #ddd;
+      top: -152px;
+      left: 31px;
+      cursor: auto;
+      display: none; }
+      footer .contact a span::after {
+        width: 0;
+        height: 0;
+        content: '';
+        position: absolute;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+        bottom: -18px;
+        z-index: 10;
+        border: 10px solid transparent;
+        border-top: 10px solid #fff; }
+  footer .contact a:hover span,
+  footer .contact a:focus span {
+    display: block; }
+
+@media (min-width: 1200px) {
+  .myNav,
+  .w1000,
+  .container {
+    width: 1000px; } }
+@media (max-width: 992px) {
+  #navbar .hidden992 {
+    display: none; }
+
+  #navbar .more {
+    display: block; }
+
+  #hot_game .right_img p {
+    text-align: left; } }
+@media (min-width: 280px) and (max-width: 480px) {
+  #myCarousel .index_img img {
+    height: 200px; }
+
+  #engine .left_img h1,
+  #LayaFlash .left_img h1,
+  #LayaPlayer .left_img h1,
+  #company .left_img h1,
+  #job .left_img h1,
+  #contact .left_img h1 {
+    font-size: 20px; }
+    #engine .left_img h1 span,
+    #LayaFlash .left_img h1 span,
+    #LayaPlayer .left_img h1 span,
+    #company .left_img h1 span,
+    #job .left_img h1 span,
+    #contact .left_img h1 span {
+      padding: 7px 10px;
+      font-size: 12px;
+      border-radius: 50%; }
+  #engine .left_img h2,
+  #LayaFlash .left_img h2,
+  #LayaPlayer .left_img h2,
+  #company .left_img h2,
+  #job .left_img h2,
+  #contact .left_img h2 {
+    font-size: 16px; }
+  #engine .left_img .content_text_1,
+  #engine .left_img .content_text_2,
+  #engine .left_img .content_text_3,
+  #LayaFlash .left_img .content_text_1,
+  #LayaFlash .left_img .content_text_2,
+  #LayaFlash .left_img .content_text_3,
+  #LayaPlayer .left_img .content_text_1,
+  #LayaPlayer .left_img .content_text_2,
+  #LayaPlayer .left_img .content_text_3,
+  #company .left_img .content_text_1,
+  #company .left_img .content_text_2,
+  #company .left_img .content_text_3,
+  #job .left_img .content_text_1,
+  #job .left_img .content_text_2,
+  #job .left_img .content_text_3,
+  #contact .left_img .content_text_1,
+  #contact .left_img .content_text_2,
+  #contact .left_img .content_text_3 {
+    font-size: 12px;
+    line-height: 20px; }
+  #engine .left_img .flash img,
+  #LayaFlash .left_img .flash img,
+  #LayaPlayer .left_img .flash img,
+  #company .left_img .flash img,
+  #job .left_img .flash img,
+  #contact .left_img .flash img {
+    width: 40px;
+    height: 40px; }
+  #engine .left_img .text,
+  #LayaFlash .left_img .text,
+  #LayaPlayer .left_img .text,
+  #company .left_img .text,
+  #job .left_img .text,
+  #contact .left_img .text {
+    margin-left: -30px; }
+    #engine .left_img .text h4,
+    #LayaFlash .left_img .text h4,
+    #LayaPlayer .left_img .text h4,
+    #company .left_img .text h4,
+    #job .left_img .text h4,
+    #contact .left_img .text h4 {
+      font-size: 14px;
+      margin-bottom: 0; }
+    #engine .left_img .text p,
+    #LayaFlash .left_img .text p,
+    #LayaPlayer .left_img .text p,
+    #company .left_img .text p,
+    #job .left_img .text p,
+    #contact .left_img .text p {
+      font-size: 12px;
+      line-height: 20px; }
+
+  #advantage .right_text h1 {
+    font-size: 20px; }
+  #advantage .right_text .flash img {
+    width: 38px;
+    height: 38px; }
+  #advantage .right_text .text {
+    margin-left: -30px; }
+    #advantage .right_text .text h4 {
+      font-size: 14px;
+      margin-bottom: 0; }
+    #advantage .right_text .text p {
+      font-size: 12px;
+      line-height: 20px; }
+
+  #product .title h1 {
+    font-size: 20px; }
+  #product .content_img img {
+    width: 48px;
+    height: 48px; }
+  #product .content_text {
+    margin-left: -14px; }
+    #product .content_text h4 {
+      font-size: 14px;
+      margin-bottom: 0; }
+    #product .content_text p {
+      font-size: 12px;
+      line-height: 20px; }
+  #product .box {
+    margin-bottom: 0; }
+
+  #game .title p {
+    font-size: 18px; }
+  #game .game_detail li {
+    padding: 0 12px; }
+    #game .game_detail li img {
+      width: 54px;
+      height: 54px; }
+    #game .game_detail li p {
+      font-size: 10px;
+      margin-top: 5px; }
+
+  #cooperation h1 {
+    font-size: 18px; }
+  #cooperation .game_detail {
+    text-align: center; }
+    #cooperation .game_detail img {
+      width: 100px;
+      height: 48px; }
+
+  #LayaPlayer .content h4 {
+    font-size: 16px; }
+  #LayaPlayer .content p {
+    font-size: 12px;
+    line-height: 20px; }
+
+  #LayaAir .left_text h3,
+  #LayaStore .left_text h3 {
+    font-size: 20px; }
+    #LayaAir .left_text h3 span,
+    #LayaStore .left_text h3 span {
+      padding: 7px 10px;
+      font-size: 12px;
+      border-radius: 50%; }
+  #LayaAir .left_text .text,
+  #LayaStore .left_text .text {
+    font-size: 14px;
+    margin-bottom: 20px; }
+  #LayaAir .left_text .left_text_detail h4,
+  #LayaStore .left_text .left_text_detail h4 {
+    font-size: 16px; }
+  #LayaAir .left_text .left_text_detail p,
+  #LayaStore .left_text .left_text_detail p {
+    font-size: 12px;
+    line-height: 20px; }
+  #LayaAir .left_text .md_img img,
+  #LayaStore .left_text .md_img img {
+    width: 70px;
+    height: 70px; } }
+@media (min-width: 481px) and (max-width: 776px) {
+  #myCarousel .index_img img {
+    height: 300px; }
+
+  #engine .left_img h1,
+  #LayaFlash .left_img h1,
+  #LayaPlayer .left_img h1,
+  #company .left_img h1,
+  #job .left_img h1,
+  #contact .left_img h1 {
+    font-size: 30px; }
+  #engine .left_img h2,
+  #LayaFlash .left_img h2,
+  #LayaPlayer .left_img h2,
+  #company .left_img h2,
+  #job .left_img h2,
+  #contact .left_img h2 {
+    font-size: 26px; }
+  #engine .left_img .flash img,
+  #LayaFlash .left_img .flash img,
+  #LayaPlayer .left_img .flash img,
+  #company .left_img .flash img,
+  #job .left_img .flash img,
+  #contact .left_img .flash img {
+    width: 48px;
+    height: 48px; }
+
+  #advantage .right_text h1 {
+    font-size: 30px; }
+  #advantage .right_text .flash img {
+    width: 48px;
+    height: 48px; }
+
+  #product .title h1 {
+    font-size: 30px; }
+  #product .content_img img {
+    width: 62px;
+    height: 62px; }
+  #product .content_text {
+    margin-left: -40px; }
+    #product .content_text h4 {
+      font-size: 16px;
+      margin-bottom: 0; }
+    #product .content_text p {
+      line-height: 20px; }
+
+  #game .title p {
+    font-size: 24px; }
+
+  #cooperation h1 {
+    font-size: 24px; }
+  #cooperation .game_detail {
+    text-align: center; }
+    #cooperation .game_detail img {
+      width: 140px;
+      height: 64px; }
+
+  #LayaPlayer .content h4 {
+    font-size: 20px; }
+  #LayaPlayer .content p {
+    font-size: 12px;
+    line-height: 24px; }
+
+  #LayaAir .left_text h3,
+  #LayaStore .left_text h3 {
+    font-size: 24px; }
+  #LayaAir .left_text .text,
+  #LayaStore .left_text .text {
+    font-size: 14px;
+    margin-bottom: 20px; }
+  #LayaAir .left_text .left_text_detail h4,
+  #LayaStore .left_text .left_text_detail h4 {
+    font-size: 18px; }
+  #LayaAir .left_text .left_text_detail p,
+  #LayaStore .left_text .left_text_detail p {
+    font-size: 14px;
+    line-height: 20px; }
+  #LayaAir .left_text .md_img img,
+  #LayaStore .left_text .md_img img {
+    width: 120px;
+    height: 120px; } }
+@media (min-width: 777px) and (max-width: 999px) {
+  #myCarousel .index_img img {
+    height: 500px; }
+
+  #engine .left_img h1,
+  #LayaFlash .left_img h1,
+  #LayaPlayer .left_img h1 {
+    font-size: 40px; }
+
+  #advantage .right_text h1 {
+    font-size: 40px; }
+
+  #product .title h1 {
+    font-size: 40px; }
+  #product .content_img img {
+    width: 62px;
+    height: 62px; }
+  #product .content_text h4 {
+    font-size: 26px;
+    margin-bottom: 0; }
+  #product .content_text p {
+    line-height: 20px; }
+
+  #cooperation h1 {
+    font-size: 24px; }
+  #cooperation .game_detail {
+    text-align: center; }
+    #cooperation .game_detail img {
+      width: 148px;
+      height: 64px; } }
+@media (min-width: 1000px) {
+  #myCarousel .index_img img {
+    height: 657px; } }
+@media (min-width: 280px) and (max-width: 480px) {
+  footer .text a {
+    font-size: 12px; }
+  footer .title p {
+    font-size: 12px; } }
+
+/*# sourceMappingURL=public.css.map */
