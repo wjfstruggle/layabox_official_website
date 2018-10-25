@@ -1,0 +1,271 @@
+@charset "utf-8";
+//公司简介
+#company {
+    padding: 74px 0 56px;
+    h1 {
+        color: #2a2a2a;
+        margin-bottom: 28px;
+    }
+    h4 {
+        font-size: 20px;
+        color: #2a2a2a;
+        margin-bottom: 18px;
+    }
+    .text_1,
+    .text_2 {
+        color: #2a2a2a;
+        line-height: 28px;
+        margin-bottom: 20px;
+        text-indent: 28px;
+    }
+    .right_img {
+        margin-top: 150px;
+    }
+}
+
+// 人才招聘
+#job {
+    background-color: #8cc11f;
+    padding: 95px 0 70px;
+    .myRow {
+        color: #fff;
+        h1 {
+            margin-bottom: 55px;
+        }
+        .left_text {
+            p {
+                font-size: 16px;
+                line-height: 24px;
+            }
+        }
+        .right_text {
+            font-size: 16px;
+            button {
+                font-size: 24px;
+                color: #8cc11f;
+                background-color: #fff;
+                border-radius: 6px;
+                border: none;
+                padding: 6px;
+                margin-bottom: 16px;
+            }
+        }
+    }
+}
+
+// 简历信息
+#resume_info {
+    .content_detail {
+        padding: 50px 0;
+        color: #2a2a2a;
+        border-bottom: 1px solid #d2d2d2;
+        h2 {
+            font-size: 26px;
+            color: #8cc11f;
+            margin-bottom: 40px;
+        }
+        h3 {
+            font-size: 18px;
+            margin-top: 0;
+            margin-bottom: 16px;
+        }
+        p {
+            margin-bottom: 20px;
+            &:last-child {
+                margin-bottom: 16px;
+            }
+        }
+    }
+    .content_detail_border {
+        border: none;
+    }
+}
+
+// 联系方式
+#contact {
+    background-color: #f4f4f4;
+    padding: 23px 0 60px;
+    .my_row {
+        padding: 0 15px;
+    }
+    h1 {
+        margin-bottom: 30px;
+    }
+    .left_text {
+        box-sizing: border-box;
+        width: 47%;
+        padding: 10px 10px 20px 20px;
+        margin-right: 30px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        background-color: #fff;
+        border: 1px solid #e3e3e3;
+        p {
+            font-size: 16px;
+            color: #2a2a2a;
+            padding-left: 10px;
+        }
+        &:nth-child(2),
+        &:nth-child(4) {
+            margin-right: 0px;
+        }
+        .img,
+        .text {
+            display: table-cell;
+        }
+    }
+}
+
+@media (max-width:767px) {
+    #company {
+        .right_img {
+            margin-top: 0px;
+            img {
+                width: 60%;
+            }
+        }
+    }
+}
+
+@media (max-width:992px) {
+    #contact {
+        .left_text {
+            padding: 5px 5px 10px 10px;
+            width: 47%;
+            .img {
+                width: 50px;
+                height: 50px;
+                img {
+                    width: 100%;
+                }
+            }
+            p {
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+@media (min-width:320px) and (max-width:480px) {
+    #company,
+    #job {
+        .left_img {
+            h4 {
+                font-size: 14px;
+                line-height: 20px;
+            }
+            .left_text,
+            .right_text {
+                p {
+                    font-size: 12px;
+                    line-height: 20px;
+                }
+                button {
+                    font-size: 14px;
+                }
+            }
+            .text_1,
+            .text_2 {
+                font-size: 12px;
+                line-height: 20px;
+            }
+        }
+    }
+    #resume_info {
+        .content_detail {
+            h2 {
+                font-size: 16px;
+                margin-bottom: 20px;
+            }
+            h3 {
+                font-size: 14px;
+                margin-bottom: 10px;
+            }
+            p {
+                font-size: 12px;
+                line-height: 20px;
+            }
+        }
+    }
+    #contact {
+        .left_text {
+            padding: 3px 3px 5px 5px;
+            width: 95%;
+            .img {
+                width: 25px;
+                height: 25px;
+                img {
+                    width: 100%;
+                }
+            }
+            p {
+                font-size: 10px;
+            }
+        }
+    }
+}
+
+@media (min-width:481px) and (max-width:766px) {
+    #company,
+    #job {
+        .left_img {
+            h4 {
+                font-size: 16px;
+                line-height: 24px;
+            }
+            .text_1,
+            .text_2 {
+                font-size: 14px;
+                line-height: 24px;
+            }
+        }
+        .left_text,
+        .right_text {
+            p {
+                font-size: 14px;
+                line-height: 24px;
+            }
+            button {
+                font-size: 18px;
+            }
+        }
+    }
+    #resume_info {
+        .content_detail {
+            h2 {
+                font-size: 20px;
+            }
+            h3 {
+                font-size: 16px;
+            }
+            p {
+                font-size: 14px;
+                line-height: 20px;
+            }
+        }
+    }
+    #contact {
+        .left_text {
+            padding: 5px 5px 10px 10px;
+            width: 46%;
+            .img {
+                width: 40px;
+                height: 40px;
+                img {
+                    width: 100%;
+                }
+            }
+            p {
+                font-size: 10px;
+            }
+        }
+    }
+}
+
+@media (min-width:768px) and (max-width:992px) {
+    #company {
+        .right_img img {
+            width: 80%;
+        }
+    }
+}

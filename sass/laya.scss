@@ -1,0 +1,120 @@
+@charset "utf-8";
+// LayaFlash
+@mixin h1_span {
+    font-size: 48px;
+    color: #fff;
+    span {
+        display: inline-block;
+        padding: 6px 15px;
+        line-height: 1;
+        background-color: #fff;
+        color: #8cc01e;
+        margin-right: 10px;
+    }
+}
+
+@mixin h3_span {
+    font-size: 42px;
+    color: #3393df;
+    span {
+        display: inline-block;
+        padding: 4px 12px;
+        font-size: 36px;
+        line-height: 1;
+        background-color: #3393df;
+        color: #fff;
+        margin-right: 10px;
+    }
+}
+
+#LayaFlash,
+#LayaPlayer {
+    padding: 60px 0;
+    background-color: #8cc01e;
+    .left_img {
+        color: #fff;
+        h2 {
+            font-size: 24px;
+            margin-bottom: 60px;
+        }
+        p {
+            line-height: 30px;
+            margin-bottom: 15px;
+        }
+        button {
+            padding: 8px 18px;
+            color: #8cc01e;
+            letter-spacing: 2px;
+            border-radius: 5px;
+            border: none;
+        }
+    }
+    h1 {
+        @include h1_span;
+        margin-bottom: 18px;
+    }
+}
+
+#LayaPlayer {
+    background-color: #3393df;
+    h1 span {
+        color: #3393df;
+    }
+    .content {
+        color: #fff;
+        h4 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        p {
+            line-height: 30px;
+            margin-bottom: 30px;
+        }
+    }
+    .right_img {
+        margin-top: 130px;
+    }
+}
+
+#LayaAir,
+#LayaStore {
+    padding: 80px 0;
+    h3 {
+        @include h3_span;
+        margin-bottom: 20px;
+    }
+    .text {
+        font-size: 18px;
+        color: #5d5d5d;
+        margin-bottom: 30px;
+    }
+    h4 {
+        font-size: 18px;
+        color: #3393df;
+        margin-bottom: 16px;
+    }
+    .my_row {
+        p {
+            line-height: 24px;
+            margin-bottom: 30px;
+            color: #5d5d5d;
+            text-indent: 28px;
+        }
+        .md_img {
+            text-align: center;
+        }
+    }
+}
+
+#LayaStore {
+    background-color: #f7f7f7;
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    #LayaPlayer {
+        text-align: center;
+        img {
+            width: 60%;
+        }
+    }
+}

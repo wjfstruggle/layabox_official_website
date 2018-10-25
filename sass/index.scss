@@ -1,0 +1,180 @@
+@charset "utf-8";
+// 图片与文字居中
+@mixin middle {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+// LayaFlash 引擎
+#engine,
+#advantage {
+    background-color: #fbfaf8;
+    padding: 86px 0 40px;
+    .small_pic {
+        margin-bottom: 40px;
+    }
+    .left_img {
+        h1 {
+            font-size: 48px;
+            color: #0078d7;
+            margin-bottom: 29px;
+        }
+        h2 {
+            font-size: 30px;
+            color: #666666;
+            margin-bottom: 70px;
+        }
+        .text {
+            h4 {
+                font-size: 19px;
+                color: #333;
+                margin-top: 0;
+            }
+            p {
+                color: #666666;
+                line-height: 24px;
+            }
+        }
+    }
+    .right_img {
+        margin-top: 135px;
+    }
+}
+
+// Layabox 优势
+#advantage {
+    background-color: #fff;
+    padding: 90px 0;
+    .small_pic {
+        margin-bottom: 16px;
+    }
+    .left_img {
+        margin-top: 100px;
+    }
+    .right_text {
+        h1 {
+            color: #8fc31f;
+            font-size: 48px;
+            margin-bottom: 37px;
+        }
+        .text {
+            p {
+                color: #666666;
+            }
+        }
+    }
+    .text,
+    .flash {
+        padding-left: 15px;
+        display: table-cell;
+    }
+}
+
+// 产品家族
+#product {
+    background-color: #0079d7;
+    padding: 100px 0;
+    .container {
+        color: #fff;
+    }
+    h1 {
+        text-align: center;
+        font-size: 48px;
+        margin-bottom: 60px;
+    }
+    .box {
+        height: 150px;
+        margin-bottom: 50px;
+        h4 {
+            margin-top: -10px;
+            font-size: 32px;
+        }
+        p {
+            line-height: 24px;
+        }
+    }
+}
+
+// 游戏
+#game {
+    padding: 40px 0;
+    .title {
+        p {
+            font-size: 34px;
+            margin: 45px 0;
+            padding-right: 0;
+            a {
+                float: right;
+                margin-top: 20px;
+                text-decoration: none;
+                font-size: 14px;
+                color: #000;
+                cursor: pointer;
+            }
+        }
+    }
+    .left_img {
+        img {
+            width: 100%;
+        }
+    }
+    .game_detail {
+        padding: 0 0 0 30px;
+        li {
+            float: left;
+            list-style: none;
+            text-align: center;
+            padding: 0 15px;
+            box-sizing: border-box;
+            a {
+                display: block;
+            }
+        }
+    }
+}
+
+// 合作伙伴
+#cooperation {
+    padding: 40px 0;
+    background-color: #f4f4f4;
+    h1 {
+        color: #2a2a2a;
+        font-size: 30px;
+        span {
+            font-size: 12px;
+            color: #777777;
+        }
+    }
+    .game_detail {
+        padding: 0;
+        margin-top: 30px;
+        div {
+            margin-bottom: 20px;
+        }
+        a {
+            display: block;
+            border-radius: 5px;
+        }
+    }
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+    .right_img {
+        padding-top: 150px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .game_detail {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .game_detail {
+        margin-top: -150px;
+        li {
+            width: 24%;
+        }
+    }
+}
